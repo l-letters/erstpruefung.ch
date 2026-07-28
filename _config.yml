@@ -1,0 +1,32 @@
+title: erstpruefung.ch
+description: Eine Anleitung zur Baubegleitenden Erstprüfung nach NIV Art. 24
+url: "https://erstpruefung.ch"
+author: Simon Gasser
+baseurl: ""
+permalink: /:title/
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - mise.toml
+  - "erstpruefung-nin (Copy).md"
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
